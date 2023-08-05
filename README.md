@@ -25,3 +25,26 @@ The state variable test_value is initialized to 50.
 
 Call the different functions to observe the error handling techniques in action.
 
+## How and where to Run the Program
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+Now once you are on the remix IDE you need to create a new ".sol" file by clicking on the create new file icon.
+
+After creating the file you need to specify the 
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18; //Version of solidity using
+```
+Now Write the remaining code after this, like declaring the variables and creating the functions like "mint" and "burn".
+
+Now to run the code first you need to compile the code for that press `Ctrl+S` or you can compile the code by pressing the compile button in `solidity compiler` Tab on the left side of the IDE.
+
+After compiling you need to deploy the contract by clicking the `deploy` button present in the `deploy & run transcations` tab.
+
+At the bottom the you will find your contract running, there you will find all the public variables and functions, by clicking them and putting the values in the function you can get the output accordingly.
+
+### Authors
+@Vinay Kumar Gupta
+
+### license
+This project is licensed under the MIT License.
+
